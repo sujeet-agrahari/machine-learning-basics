@@ -220,6 +220,52 @@ Limits of Accuracy: fraud example
 
 - False Negative : Telling a pregnant women that you are not pregnant
 - False Positive: Telling a man he is pregnant
-  ![Alt text](<Screenshot 2023-09-13 at 12.07.55 PM.png>)
+
+### Sensitivity
+
+values accurate prediction of fraudulent transactions specifically by valuing true positives more.
+
+![Alt text](<Screenshot 2023-09-13 at 12.07.55 PM.png>)
 
 Above is a bad score, we must consider optimizing it.
+
+### Specificity
+
+which values true negatives. This is useful metric for spam filters. For an email user, it's better to send spam to the inbox rather than send real emails to the spam folder for deletion.
+
+![Alt text](<Screenshot 2023-09-13 at 12.12.55 PM.png>)
+
+## Unsupervised Learning
+
+Choose your own Adventure
+
+## Improving Performance
+
+1. Dimension Reduction
+2. Hyperparameter Tuning
+3. Ensemble Methods
+
+### Dimension Reduction
+
+Dimension refers to number of features in an observation so dimension reduction means to reducing the number of features.
+
+- Irrelevance: some features don't carry useful information
+  - How long it will take us to go to the office
+    - Weather, Traffic, but not how many glass of water we drank
+- Correlation: some features may be highly related and we can keep and get rid of others
+  - hight and shoe size
+    - take the hight only
+- Collapse: multiple feature in an underlying feature
+  - hight and weight
+    - body mass index
+
+### Hyperparameter Tuning
+
+![Alt text](<Screenshot 2023-09-13 at 12.24.29 PM.png>)
+
+### Ensemble Methods
+
+Classification Setting:
+![Alt text](<Screenshot 2023-09-13 at 12.24.53 PM.png>)
+Regression Setting:
+![Alt text](<Screenshot 2023-09-13 at 12.25.58 PM.png>)
